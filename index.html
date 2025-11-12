@@ -1,32 +1,39 @@
+
 <html>
     <head>
-        <title>Zach Wise - Visual Storyteller / Developer</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Zach Wise - Emmy Award winning designer, developer, photojournalist and Associate Professor at Northwestern University">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="website.css" />
+        <title>Zach Wise</title>
+        <link href="website.css" rel="stylesheet">
 
         <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
         <link rel="manifest" href="favicon/site.webmanifest">
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-XXXXXXXXXX');
-        </script>
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://zachwise.github.io/portfolio/">
+        <meta property="og:title" content="Zach Wise's Portfolio">
+        <meta property="og:description" content="A concise, compelling description for social media sharing (usually 2-4 sentences).">
+        <meta property="og:image" content="https://zachwise.github.io/portfolio/ai-dog.gif">
+        <meta property="og:image:alt" content="Headshot of Zach Wise">
+        <meta property="og:site_name" content="Your Site Name">
+        <meta property="og:locale" content="en_US">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@yourtwitterhandle">
+        <meta name="twitter:creator" content="@authorstwitterhandle">
+        <meta name="twitter:title" content="Compelling Title for Social Sharing"> 
+        <meta name="twitter:description" content="A concise, compelling description for social media sharing (usually 2-4 sentences)."> 
+        <meta name="twitter:image" content="https://zachwise.github.io/portfolio/ai-dog.gif"> 
+        <meta name="twitter:image:alt" content="Headshot of Zach Wise.  "> 
+    </head>
+    
     </head>
     <body>
 
     <!-- Navigation -->
-     
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Zach Wise</a>
+            <a class="navbar-brand" href="#">YOUR NAME</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,19 +43,16 @@
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#bio">Bio</a>
+                        <a class="nav-link" href="#articles">Articles</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#speaking">Speaking</a>
+                        <a class="nav-link" href="#photography">Photography</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#videos">Videos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#awards">Awards</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#documentary">Documentary Film</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -57,516 +61,282 @@
             </div>
         </div>
     </nav>
-    
+
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container">
-            <button class="btn btn-primary" data-micromodal-trigger="modal-1">Show Modal</button>
-
-
-            <h1>Zach Wise</h1>
-            <p class="hero-subtitle">Visual Storyteller / Developer</p>
-            <p class="hero-description">Award winning designer, developer, photojournalist and Associate Professor in The Medill School of Journalism at Northwestern University.</p>
-            <div class="hero-availability">
-                <h3>Available for Work</h3>
-                <p>Available for <strong>design</strong>, <strong>development</strong> and <strong>editorial</strong> work as well as <strong>speaking engagements.</strong></p>
-            </div>
-            <a href="#contact" class="btn btn-primary">Contact Zach</a>
+            <h1>YOUR NAME</h1>
+            <p>Journalist | Photographer | Videographer</p>
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
         </div>
     </section>
 
-    <!-- Bio Section -->
-    <section class="py-5 bg-light" id="bio">
+    <!-- Articles Section -->
+    <section class="py-5" id="articles">
         <div class="container">
-            <h2 class="section-title">Bio</h2>
-            <div class="bio-content">
-                <p>Zach Wise is an Emmy Award winning interactive producer and Associate Professor in The Medill School of Journalism at Northwestern University.</p>
+            <h2 class="section-title">Featured Articles</h2>
+            <div class="row">
+                <!-- Article 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="ai-dog.gif" class="card-img-top" alt="Dacing AI Dog">
+                        <div class="card-body">
+                            <div class="article-meta">
+                                <span><i class="far fa-calendar-alt"></i> January 15, 2025</span>
+                                <span class="ms-3"><i class="far fa-newspaper"></i> The Daily Journal</span>
+                            </div>
+                            <h5 class="card-title">Investigating Climate Change Impact on Local Communities</h5>
+                            <p class="card-text">An in-depth look at how climate change is affecting local communities and what measures are being taken to address these challenges.</p>
+                            <a href="#" class="btn btn-primary">Read Article</a>
+                        </div>
+                    </div>
+                </div>
                 
-                <p>His innovative work and vision began at Ohio University when he was a Visiting Professor in the School of Visual Communication. There he founded the School's first annual digital initiative, Soul of Athens. The project won awards from POYi and NPPA's Best of Photojournalism and went on to be the School's annual online publication.</p>
+                <!-- Article 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/api/placeholder/800/600" class="card-img-top" alt="Article 2">
+                        <div class="card-body">
+                            <div class="article-meta">
+                                <span><i class="far fa-calendar-alt"></i> February 3, 2025</span>
+                                <span class="ms-3"><i class="far fa-newspaper"></i> Metro News</span>
+                            </div>
+                            <h5 class="card-title">The Future of Public Transportation in Urban Areas</h5>
+                            <p class="card-text">Exploring innovative solutions and technologies that are reshaping public transportation systems in major cities.</p>
+                            <a href="#" class="btn btn-primary">Read Article</a>
+                        </div>
+                    </div>
+                </div>
                 
-                <p>In 2007, Wise signed on to be the Senior Multimedia Producer for the Las Vegas Sun. He helped with the launch of its new website and created the site's first multimedia pieces.</p>
-                
-                <p>His other work at the Sun was recognized by the National Headliner Awards, Online News Association, Webby Awards, NPPA Best of Photojournalism, and more notably, the Pulitzer Prize, where his video and interactive regarding the Construction Deaths on the Strip, contributed to The Sun's first win.</p>
-                
-                <p>In 2008, Wise joined The New York Times' Multimedia team. His work there has garnered a Peabody, several Emmy nominations, an Emmy award, and numerous other industry honors.</p>
-                
-                <p>A native of Athens, Ohio, Wise received his Masters Degree in Photojournalism from Ohio University in 2006. Every year, he travels nationally and internationally for speaking engagements, workshops, and competitions on the subject of multimedia and interactive storytelling.</p>
+                <!-- Article 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/api/placeholder/800/600" class="card-img-top" alt="Article 3">
+                        <div class="card-body">
+                            <div class="article-meta">
+                                <span><i class="far fa-calendar-alt"></i> March 20, 2025</span>
+                                <span class="ms-3"><i class="far fa-newspaper"></i> Tech Insight</span>
+                            </div>
+                            <h5 class="card-title">Artificial Intelligence: Transforming Healthcare Delivery</h5>
+                            <p class="card-text">How AI technologies are revolutionizing healthcare and improving patient outcomes across various medical specialties.</p>
+                            <a href="#" class="btn btn-primary">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">View All Articles</a>
             </div>
         </div>
     </section>
 
-    <!-- Speaking Section -->
-    <section class="py-5" id="speaking">
+    <!-- Photography Section -->
+    <section class="py-5 bg-light" id="photography">
         <div class="container">
-            <h2 class="section-title">Speaking</h2>
-            <div class="speaking-list">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="speaking-item">
-                            <h5>IDFA</h5>
-                            <p class="location">Amsterdam, Netherlands 2010</p>
-                            <p class="topic">Storytelling in the Age of Interactivity</p>
+            <h2 class="section-title">Photography Portfolio</h2>
+            <div class="row">
+                <!-- Photo 1 -->
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="/api/placeholder/800/600" alt="Photography 1">
+                        <div class="gallery-caption">
+                            <h5>Urban Landscapes</h5>
+                            <p>Downtown skyline at sunset</p>
                         </div>
-                        
-                        <div class="speaking-item">
-                            <h5>New Media Conference</h5>
-                            <p class="location">Amsterdam, Netherlands 2010</p>
-                            <p class="topic">Future of Storytelling</p>
+                    </div>
+                </div>
+                
+                <!-- Photo 2 -->
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="/api/placeholder/800/600" alt="Photography 2">
+                        <div class="gallery-caption">
+                            <h5>Street Photography</h5>
+                            <p>Daily life in the city center</p>
                         </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Modern Storytelling Training</h5>
-                            <p class="location">Lisbon Portugal 2011</p>
-                            <p class="topic">Training Journalists in Repressive Governments</p>
+                    </div>
+                </div>
+                
+                <!-- Photo 3 -->
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="/api/placeholder/800/600" alt="Photography 3">
+                        <div class="gallery-caption">
+                            <h5>Event Coverage</h5>
+                            <p>Annual arts festival</p>
                         </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Australia International Documentary Conference</h5>
-                            <p class="location">Adelaide, Australia 2011</p>
-                            <p class="topic">Storytelling in the Age of Interactivity</p>
+                    </div>
+                </div>
+                
+                <!-- Photo 4 -->
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="/api/placeholder/800/600" alt="Photography 4">
+                        <div class="gallery-caption">
+                            <h5>Portrait Series</h5>
+                            <p>Local entrepreneurs</p>
                         </div>
-                        
-                        <div class="speaking-item">
-                            <h5>First Cross-Media Summit Forum of China</h5>
-                            <p class="location">Beijing, China 2012</p>
-                            <p class="topic">Storytelling in the Age of Interactivity</p>
+                    </div>
+                </div>
+                
+                <!-- Photo 5 -->
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="/api/placeholder/800/600" alt="Photography 5">
+                        <div class="gallery-caption">
+                            <h5>Environmental Photography</h5>
+                            <p>Climate change impact documentation</p>
                         </div>
-                        
-                        <div class="speaking-item">
-                            <h5>MOMA</h5>
-                            <p class="location">New York, NY 2012</p>
-                            <p class="topic">Storytelling in the Age of Interactivity</p>
+                    </div>
+                </div>
+                
+                <!-- Photo 6 -->
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="/api/placeholder/800/600" alt="Photography 6">
+                        <div class="gallery-caption">
+                            <h5>Cultural Documentation</h5>
+                            <p>Traditional celebrations</p>
                         </div>
-                        
-                        <div class="speaking-item">
-                            <h5>College Media Association</h5>
-                            <p class="location">Chicago, IL 2012</p>
-                            <p class="topic">The State of Storytelling in the Age of Interactivity</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="py-5" id="videos">
+        <div class="container">
+            <h2 class="section-title">Video Journalism</h2>
+            <div class="row">
+                <!-- Video 1 -->
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="video-wrapper">
+                            <!-- Placeholder for video player -->
+                            <img src="/api/placeholder/800/450" alt="Video 1 Thumbnail" style="width:100%; height:100%; position:absolute">
+                            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%)">
+                                <i class="fas fa-play-circle fa-4x" style="color:white; opacity:0.8"></i>
+                            </div>
                         </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Google TechRaking Summit</h5>
-                            <p class="location">Mountain View, California 2012</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Inside the Community Garden Initiative</h5>
+                            <p class="card-text">A documentary exploring how urban gardens are transforming food deserts and building community resilience.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted"><i class="far fa-clock"></i> 12:45</small>
+                                <a href="#" class="btn btn-primary">Watch Video</a>
+                            </div>
                         </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Hoofdredacteurendag, Rijksmuseum</h5>
-                            <p class="location">Amsterdam, Netherlands 2014</p>
-                            <p class="topic">Magazines in the Modern Age</p>
+                    </div>
+                </div>
+                
+                <!-- Video 2 -->
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="video-wrapper">
+                            <!-- Placeholder for video player -->
+                            <img src="/api/placeholder/800/450" alt="Video 2 Thumbnail" style="width:100%; height:100%; position:absolute">
+                            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%)">
+                                <i class="fas fa-play-circle fa-4x" style="color:white; opacity:0.8"></i>
+                            </div>
                         </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Schuneman Symposium</h5>
-                            <p class="location">Athens, Ohio 2014</p>
-                            <p class="topic">Visual Storytelling Keynote</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Innovation for Social Good</h5>
+                            <p class="card-text">Profiles of tech innovators creating solutions to address pressing social and environmental challenges.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted"><i class="far fa-clock"></i> 08:32</small>
+                                <a href="#" class="btn btn-primary">Watch Video</a>
+                            </div>
                         </div>
+                    </div>
+                </div>
+                
+                <!-- Video 3 -->
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="video-wrapper">
+                            <!-- Placeholder for video player -->
+                            <img src="/api/placeholder/800/450" alt="Video 3 Thumbnail" style="width:100%; height:100%; position:absolute">
+                            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%)">
+                                <i class="fas fa-play-circle fa-4x" style="color:white; opacity:0.8"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Voices from the Frontline: Healthcare Workers</h5>
+                            <p class="card-text">Personal stories from healthcare professionals sharing their experiences and challenges.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted"><i class="far fa-clock"></i> 15:20</small>
+                                <a href="#" class="btn btn-primary">Watch Video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video 4 -->
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="video-wrapper">
+                            <!-- Placeholder for video player -->
+                            <img src="/api/placeholder/800/450" alt="Video 4 Thumbnail" style="width:100%; height:100%; position:absolute">
+                            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%)">
+                                <i class="fas fa-play-circle fa-4x" style="color:white; opacity:0.8"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Exploring Sustainable Architecture</h5>
+                            <p class="card-text">A look at innovative building designs that prioritize environmental sustainability and energy efficiency.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted"><i class="far fa-clock"></i> 11:15</small>
+                                <a href="#" class="btn btn-primary">Watch Video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5 bg-light" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center">
+                    <img src="/api/placeholder/400/400" alt="Your Photo" class="bio-img">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="section-title">About Me</h2>
+                    <p>Hello! I'm [YOUR NAME], a passionate journalist with over [X] years of experience covering a wide range of topics including technology, environment, social issues, and urban development. My work aims to shed light on important stories that might otherwise go untold.</p>
+                    <p>I believe in the power of journalism to drive positive change and strive to create compelling content across multiple platforms. Whether through written articles, photography, or video documentaries, my goal is to engage audiences with stories that matter.</p>
+                    <p>My work has been featured in publications such as [PUBLICATION NAMES], and I've received recognition for [MENTION ANY AWARDS OR ACHIEVEMENTS].</p>
+                    
+                    <h4 class="mt-4 mb-3">Areas of Expertise</h4>
+                    <div class="mb-4">
+                        <span class="skill-badge">Investigative Journalism</span>
+                        <span class="skill-badge">Environmental Reporting</span>
+                        <span class="skill-badge">Tech Journalism</span>
+                        <span class="skill-badge">Documentary Production</span>
+                        <span class="skill-badge">Photojournalism</span>
+                        <span class="skill-badge">Data Journalism</span>
+                        <span class="skill-badge">Feature Writing</span>
                     </div>
                     
-                    <div class="col-md-6">
-                        <div class="speaking-item">
-                            <h5>Hong Kong University</h5>
-                            <p class="location">Hong Kong 2015</p>
-                            <p class="topic">Telling Stories with Technology</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>SXSW EDU</h5>
-                            <p class="location">Austin, Texas 2015</p>
-                            <p class="topic">Putting the Hollywood in MOOCs</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Jinan University</h5>
-                            <p class="location">Guangzhou, China 2015</p>
-                            <p class="topic">The State of Storytelling in the Age of Interactivity</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Danish School of Media and Journalism</h5>
-                            <p class="location">Copenhagen, Denmark 2017</p>
-                            <p class="topic">Future of Journalism</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Adresseavisen Newsroom</h5>
-                            <p class="location">Trondheim, Norway 2017</p>
-                            <p class="topic">Future of Journalism</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Danish Online News Association (DONA)</h5>
-                            <p class="location">Copenhagen, Denmark 2017</p>
-                            <p class="topic">Future of Journalism</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>The Norwegian Institute of Journalism</h5>
-                            <p class="location">Oslo, Norway 2017</p>
-                            <p class="topic">Training Journalists on Tools</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Guest Lecture University of Illinois</h5>
-                            <p class="location">Urbana-Champaign, IL 2017</p>
-                            <p class="topic">The State of Storytelling in the Age of Interactivity</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Northwestern University Qatar</h5>
-                            <p class="location">Doha, Qatar 2017</p>
-                            <p class="topic">Adapt or Scrap</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Korean Digital Humanities Conference, Academy of Korean Studies</h5>
-                            <p class="location">Seoul, South Korea 2017</p>
-                            <p class="topic">Telling Stories with Technology</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Mobile Me and You</h5>
-                            <p class="location">Lincoln, NE 2018</p>
-                            <p class="topic">Storytelling in the Age of Interactivity</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Journalism 360</h5>
-                            <p class="location">New York, NY 2018</p>
-                            <p class="topic">Presenting Scene VR</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>Council of One Hundred</h5>
-                            <p class="location">Chicago, IL 2019</p>
-                            <p class="topic">The Future of Storytelling and Journalism</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>GFR Media</h5>
-                            <p class="location">Puerto Rico, PR 2019</p>
-                            <p class="topic">Storytelling Tools</p>
-                        </div>
-                        
-                        <div class="speaking-item">
-                            <h5>SABEW Training Sessions</h5>
-                            <p class="location">Online 2019</p>
-                            <p class="topic">How to harness technology for innovative journalism</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="py-5 bg-light" id="projects">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            
-            <h3 class="project-category-title">Storytelling Tools</h3>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Scene VR</h5>
-                            <p class="project-org">Knight Lab</p>
-                            <p class="card-text">SceneVR is an engaging way to tell stories from an entirely new perspective. It turns your collection of panoramic and VR-ready photos into a slideshow of navigable scenes, allowing you to create unique 360° narratives.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">StoryMap JS</h5>
-                            <p class="project-org">Knight Lab</p>
-                            <p class="card-text">StoryMapJS is a free tool to help you tell stories on the web that highlight the locations of a series of events and it has a friendly authoring tool.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Timeline JS</h5>
-                            <p class="project-org">Knight Lab</p>
-                            <p class="card-text">TimelineJS is an open-source tool that enables anyone to build visually rich, interactive timelines. It has been used by more than 250,000 people to tell stories seen by hundreds of millions. Available in more than 60 languages.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <h3 class="project-category-title mt-5">Editorial</h3>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Construction Deaths on the Strip</h5>
-                            <p class="project-org">Las Vegas Sun</p>
-                            <p class="card-text">In the shadows of the cranes, steel, and concrete upon which Las Vegas has pinned its addiction to growth, a body count has emerged.</p>
-                            <div class="project-awards">
-                                <span class="award-badge">Pulitzer Prize - 2009 Public Service</span>
-                                <span class="award-badge">National Journalism Awards - 2009 1st Public Service Reporting</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Thirst in the Mojave</h5>
-                            <p class="project-org">Las Vegas Sun</p>
-                            <p class="card-text">Southern Nevada water managers say they can no longer rely on the river so heavily, and must construct a massive pipeline to draw water stored underground for centuries in rural Nevada to Las Vegas.</p>
-                            <div class="project-awards">
-                                <span class="award-badge">Online News Association - Best Multimedia Feature</span>
-                                <span class="award-badge">APME - 2009 1st Journalism Excellence</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Blueprints for the Mideast</h5>
-                            <p class="project-org">The New York Times</p>
-                            <p class="card-text">Two cities on the Persian Gulf, Doha and Abu Dhabi are the settings for vast construction projects, including major new museums designed by some of the world's most celebrated architects.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <h3 class="project-category-title mt-5">Design</h3>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">LENS</h5>
-                            <p class="project-org">The New York Times</p>
-                            <p class="card-text">Lens is the photojournalism blog of The New York Times, presenting the finest and most interesting visual and multimedia reporting — photographs, videos and slide shows.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Local News Initiative</h5>
-                            <p class="project-org">Knight Lab</p>
-                            <p class="card-text">With local journalism in crisis, Northwestern University has assembled a team of experts in digital innovation, audience understanding and business strategy.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Orangeline</h5>
-                            <p class="project-org">Knight Lab</p>
-                            <p class="card-text">Orangeline is a style guide and design framework to build and publish in the Knight Lab.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Awards Section -->
-    <section class="py-5" id="awards">
-        <div class="container">
-            <h2 class="section-title">Awards</h2>
-            <div class="awards-list">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="award-item">
-                            <h5>Peabody</h5>
-                            <p class="award-year">2008</p>
-                            <p class="award-work">Choosing a President</p>
-                        </div>
-                        
-                        <div class="award-item">
-                            <h5>Pulitzer Prize</h5>
-                            <p class="award-year">2009 Public Service</p>
-                            <p class="award-work">Construction Deaths on the Strip</p>
-                        </div>
-                        
-                        <div class="award-item">
-                            <h5>National Journalism Awards - Scripps Howard Foundation</h5>
-                            <p class="award-year">2009 1st Public Service Reporting</p>
-                            <p class="award-work">Construction Deaths on the Strip</p>
-                        </div>
-                        
-                        <div class="award-item">
-                            <h5>SABEW Best in Business - Society of American Business Editors and Writers</h5>
-                            <p class="award-year">2008 1st Creative Use of Online</p>
-                            <p class="award-work">Pogue-O-Matic</p>
-                        </div>
-                        
-                        <div class="award-item">
-                            <h5>Pictures of the Year (POYi)</h5>
-                            <p class="award-year">2008 2nd Best Use Multimedia</p>
-                            <p class="award-work">Soul of Athens</p>
-                        </div>
-                        
-                        <div class="award-item">
-                            <h5>Online News Association (ONA)</h5>
-                            <p class="award-year">Best Multimedia Feature Presentation</p>
-                            <p class="award-work">Thirst in the Mojave</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <div class="award-item">
-                            <h5>Best of Photojournalism (NPPA)</h5>
-                            <p class="award-detail">2009 1st Road to Office Multimedia Package - Choosing a President</p>
-                            <p class="award-detail">2009 1st Road to Office Video - Choosing a President</p>
-                            <p class="award-detail">2008 1st Best Use of the Web - Soul of Athens</p>
-                            <p class="award-detail">2008 1st Best Multimedia Package - Soul of Athens</p>
-                            <p class="award-detail">2009 1st Best Use of Multimedia - Thirst in the Mojave</p>
-                            <p class="award-detail">2009 1st News or Feature Multimedia Package - Thirst in the Mojave</p>
-                            <p class="award-detail">2009 2nd Documentary Video - Wreckless Willie</p>
-                        </div>
-                        
-                        <div class="award-item">
-                            <h5>Associated Press Media Editors (APME)</h5>
-                            <p class="award-year">2009 1st Journalism Excellence Online Convergence</p>
-                            <p class="award-work">Thirst in the Mojave</p>
-                        </div>
-                        
-                        <div class="award-item">
-                            <h5>National Headliners Awards</h5>
-                            <p class="award-year">2007 2nd Online Visuals</p>
-                            <p class="award-work">The Burning Man Experience</p>
-                        </div>
-                        
-                        <div class="award-item">
-                            <h5>Webby Awards</h5>
-                            <p class="award-year">12th Annual 1st Online Film & Video</p>
-                            <p class="award-work">The Burning Man Experience</p>
-                        </div>
-                        
-                        <div class="award-item">
-                            <h5>Best of the West</h5>
-                            <p class="award-year">2008 1st Video Storytelling</p>
-                            <p class="award-work">The Burning Man Experience</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Documentary Film Section -->
-    <section class="py-5 bg-light" id="documentary">
-        <div class="container">
-            <h2 class="section-title">Documentary Film</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card doc-film-card">
-                        <div class="card-body">
-                            <h5 class="card-title">The Burning Man Experience</h5>
-                            <p class="doc-org">Las Vegas Sun</p>
-                            <p class="doc-role">Producer | Cinematographer | Editor</p>
-                            <p class="card-text">2007's festival featured approx. 47,000 people from Las Vegas, the U.S. and the world, who all traveled to an ancient lakebed in the Northern Nevada Black Rock desert to build a temporary, all-encompassing community.</p>
-                            <div class="project-awards">
-                                <span class="award-badge">National Headliners Awards - 2007 2nd Online Visuals</span>
-                                <span class="award-badge">Webby Awards - 12th Annual 1st Online Film & Video</span>
-                                <span class="award-badge">Best of the West - 2008 1st Video Storytelling</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4">
-                    <div class="card doc-film-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Wreckless Willie</h5>
-                            <p class="doc-org">Las Vegas Sun</p>
-                            <p class="doc-role">Producer | Cinematographer | Editor</p>
-                            <p class="card-text">Willie Chapman has 10 children in 3 states and he's 40 years old. Professional boxing matches are still his main source of income. Willie also shows signs of dementia, most likely caused from continued brain trauma caused by boxing.</p>
-                            <div class="project-awards">
-                                <span class="award-badge">Best of Photojournalism - 2009 2nd Documentary Video</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4">
-                    <div class="card doc-film-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Chasing a Police Scanner</h5>
-                            <p class="doc-org">The New York Times</p>
-                            <p class="doc-role">Producer | Cinematographer | Editor</p>
-                            <p class="card-text">Reporter Corey Kilgannon, Marcus Yam and myself chased calls over a police scanner for around 16hrs straight. What we found wasn't what we expected.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4">
-                    <div class="card doc-film-card">
-                        <div class="card-body">
-                            <h5 class="card-title">A Financial House Advantage</h5>
-                            <p class="doc-org">The New York Times</p>
-                            <p class="doc-role">Producer | Cinematographer | Editor | Motiongraphics | Animator</p>
-                            <p class="card-text">An animated explanation of how banks use securities lending to make a profit, while their customers cover the losses.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4">
-                    <div class="card doc-film-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Probing the Parliament of Neurons</h5>
-                            <p class="doc-org">The New York Times</p>
-                            <p class="doc-role">Producer | Cinematographer | Editor</p>
-                            <p class="card-text">Clay Reid and colleagues are going deep into the mouse brain to decipher the conversations and decisions of neurons.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4">
-                    <div class="card doc-film-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Mapping the Highways of the Brain</h5>
-                            <p class="doc-org">The New York Times</p>
-                            <p class="doc-role">Producer | Cinematographer | Editor | Motiongraphics</p>
-                            <p class="card-text">Deanna Barch and her colleagues are trying to map connections in the human brain. The study is part of the Human Connectome Project.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4">
-                    <div class="card doc-film-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Shaking It to New Orleans Bounce</h5>
-                            <p class="doc-org">The New York Times Magazine</p>
-                            <p class="doc-role">Producer | Cinematographer | Editor | Motiongraphics</p>
-                            <p class="card-text">Bounce is a raunchy, local hip-hop style that developed in the 1990s but is only now escaping its hometown with the help of some unlikely stars.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4">
-                    <div class="card doc-film-card">
-                        <div class="card-body">
-                            <h5 class="card-title">The Flight of the Fly</h5>
-                            <p class="doc-org">The New York Times</p>
-                            <p class="doc-role">Producer | Cinematographer | Editor</p>
-                            <p class="card-text">Michael Dickinson has spent his career studying how flies fly and researchers in his lab have invented new devices to investigate the complex feat of insect flight.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4">
-                    <div class="card doc-film-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Backstage at the First Fashion Week Show</h5>
-                            <p class="doc-org">The New York Times</p>
-                            <p class="doc-role">Producer | Director of Photography | Editor</p>
-                            <p class="card-text">Experience the frenzy and interconnectivity of backstage at the first show at Lincoln Center during New York Fashion Week.</p>
-                        </div>
-                    </div>
+                    <h4 class="mt-4 mb-3">Education & Credentials</h4>
+                    <ul>
+                        <li>Master's in Journalism, [UNIVERSITY NAME], [YEAR]</li>
+                        <li>Bachelor's in [RELATED FIELD], [UNIVERSITY NAME], [YEAR]</li>
+                        <li>[ANY RELEVANT CERTIFICATIONS OR MEMBERSHIPS]</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -576,25 +346,46 @@
     <section class="py-5" id="contact">
         <div class="container">
             <h2 class="section-title text-center">Get In Touch</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <div class="contact-info">
-                        <p class="lead">Available for <strong>design</strong>, <strong>development</strong> and <strong>editorial</strong> work as well as <strong>speaking engagements.</strong></p>
-                        
-                        <div class="contact-email mt-4 mb-4">
-                            <i class="fas fa-envelope fa-2x mb-3"></i>
-                            <h4><a href="mailto:hello@zachwise.com">hello@zachwise.com</a></h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
                         </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-info mt-3 mt-md-0">
+                        <h4 class="mb-4">Contact Information</h4>
+                        <p><i class="fas fa-envelope"></i> your.email@example.com</p>
+                        <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Your City, Country</p>
                         
-                        <h4 class="mt-5 mb-3">Available For</h4>
-                        <ul class="list-unstyled">
-                            <li>✓ Design projects</li>
-                            <li>✓ Development work</li>
-                            <li>✓ Editorial assignments</li>
-                            <li>✓ Interactive storytelling</li>
-                            <li>✓ Speaking engagements</li>
-                            <li>✓ Workshops and training</li>
+                        <h4 class="mt-4 mb-3">Available For</h4>
+                        <ul>
+                            <li>Freelance journalism assignments</li>
+                            <li>Photography projects</li>
+                            <li>Documentary production</li>
+                            <li>Speaking engagements</li>
+                            <li>Media interviews</li>
                         </ul>
+                        
+                        <h4 class="mt-4 mb-3">Response Time</h4>
+                        <p>I typically respond to inquiries within 1-2 business days. For urgent matters, please indicate this in your subject line.</p>
                     </div>
                 </div>
             </div>
@@ -605,73 +396,45 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <h5>Zach Wise</h5>
-                    <p>Visual Storyteller / Developer</p>
-                    <p>Award winning designer, developer, photojournalist and Associate Professor at Northwestern University.</p>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>YOUR NAME</h5>
+                    <p>Journalist | Photographer | Videographer</p>
+                    <div class="social-links mt-3">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
                 </div>
-                <div class="col-md-3 mb-4 mb-md-0">
+                <div class="col-md-4 mb-4 mb-md-0">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#bio">Bio</a></li>
-                        <li><a href="#speaking">Speaking</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#awards">Awards</a></li>
-                        <li><a href="#documentary">Documentary Film</a></li>
+                        <li><a href="#articles">Articles</a></li>
+                        <li><a href="#photography">Photography</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
-                    <h5>Contact</h5>
-                    <p><a href="mailto:hello@zachwise.com">hello@zachwise.com</a></p>
-                    <p class="mt-3">Available for design, development, editorial work and speaking engagements.</p>
+                <div class="col-md-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to receive updates on my latest work</p>
+                    <form class="mt-3">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your email" aria-label="Your email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
                 </div>
             </div>
             
             <div class="text-center copyright">
-                <p class="mb-0">&copy; 2019 Zach Wise. All Rights Reserved.</p>
+                <p class="mb-0">&copy; <script>document.write(new Date().getFullYear())</script> YOUR NAME. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
-    
-    <div class="modal" id="modal-1" aria-hidden="true">
-    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="video-modal-title">
 
-            <header class="modal__header">
-                <h2 class="modal__title" id="video-modal-title">
-                    Urban Growth: Video Investigation
-                </h2>
-                <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-            </header>
-
-            <main class="modal__content">
-                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-                    <iframe
-                        id="modal-video-iframe"
-                        src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                        frameborder="0"
-                        allow="autoplay; encrypted-media"
-                        allowfullscreen
-                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                    ></iframe>
-                </div>
-            </main>
-
-            <footer class="modal__footer">
-                <p>Source: Student News Organization (2025)</p>
-            </footer>
-
-        </div>
-    </div>
-</div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>	
-    
-
-    <script src="website.js"></script>
     </body>
+
 </html>
